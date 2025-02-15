@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    grid-template-rows: repeat(3,200px) 50px 50px;
+}
+#box1{
+    grid-row: span 5;
+}
+
+.box{
+    background-color: blueviolet;
+}
+
+#box11,#box12{
+    grid-column: span 3;
+}

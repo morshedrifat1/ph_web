@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color:rgb(202, 197, 255) ;
+    background-image: url("https://techcino.com/wp-content/uploads/2024/02/techcino-logo-1024x208.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.tra{
+    background-color: cornflowerblue;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 10px 10px 10px #c5c5c5 ;
+    width: 50%;
+    text-align: center;
+}
+.tra h3{
+    color: rgb(240, 241, 255);
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.tra p{
+    color: rgb(238, 238, 238);
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 400;
+
+}
+.tra button{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 7px 20px;
+    border-radius: 8px;
+    border: 0px ;
+    box-shadow: 3px 3px 3px rgb(233, 233, 233);
+    cursor: pointer;
+}
+
+/* morshed rifat */

@@ -1,0 +1,110 @@
+*{
+    padding: 0xp;
+    margin: 0px;
+}
+header{
+    padding: 20px;
+    background-color: antiquewhite;
+}
+header>nav>ul{
+    display: flex;
+    margin-right: 10px;
+}
+
+nav>ul>li{
+    list-style: none;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+nav li:hover{
+    background-color: azure;
+    border-radius: 5px;
+    
+}
+ul>li>a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+main{
+    background-color: beige;
+    padding: 13px;
+}
+
+main>article{
+    width: 400px;
+    background-color: aliceblue;
+    padding: 15px;
+}
+
+main>article>header{
+    margin-bottom:10px ;
+}
+main>article>header>h2{
+    margin-bottom: 13px;
+}
+main>article>header>p{
+    margin-bottom: 13px;
+}
+figure>img{
+    object-fit:cover;
+}
+main>article>figure>figcaption{
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+main>article>section>h4{
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+
+}
+section>p{
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 20px;
+    margin-bottom: 13px;
+    
+}
+
+section h2{
+    margin: 15px;
+
+}
+
+/* form */
+
+form label{
+    display: block;
+    margin-bottom: 12px;
+    margin-left: 15px;
+}
+
+fieldset{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+/* table style */
+
+table{
+    border-collapse: collapse;
+}
+
+
+td,th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+hr{
+    margin-bottom: 30px;
+}
