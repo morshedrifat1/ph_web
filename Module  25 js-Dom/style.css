@@ -1,0 +1,23 @@
+h1{
+    color: lightcoral;
+}
+
+#fruits-title{
+    color: black;
+}
+
+.importent-places{
+    color: blueviolet;
+}
+
+.fruits-container li{
+    color: blue;
+}
+
+.text-center{
+    text-align:center;
+}
+
+.large-text{
+    font-size: 2rem;
+}
